@@ -1,0 +1,14 @@
+[
+  {
+    "title": "T-shirt",
+    "price": 100,
+    "thumbnail": "https://www.pexels.com/photo/man-in-white-crew-neck-shirt-holding-white-ceramic-mug-8801180/",
+    "id": 1
+  },
+  {
+    "title": "Polo Jeans",
+    "price": 200,
+    "thumbnail": "https://www.pexels.com/photo/woman-in-brown-long-sleeve-shirt-and-brown-pants-8801174/",
+    "id": 2
+  }
+]
