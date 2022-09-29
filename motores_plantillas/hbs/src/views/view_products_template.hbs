@@ -1,0 +1,35 @@
+
+<section>
+    {{#if prod}}
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Título</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Url</th>
+            </tr>
+            </thead>
+            <tbody>
+                {{#each prod as |product|}}
+                    <tr>
+                        <td>
+                            {{product.id}}
+                        </td>
+                        <td>
+                            {{product.title}}
+                        </td>
+                        <td>
+                            {{product.price}}
+                        </td>
+                        <td> 
+                            <img src="{{product.thumbnail}}" style="width:50px; height:50px" alt=""> 
+                        </td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+     {{else}}
+        <h3>No hay productos disponibles</h3>
+     {{/if}}
+</section>
