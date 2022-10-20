@@ -1,0 +1,17 @@
+<div class="form-group col-4 mx-auto mt-3 mb-0 w-50 border p-5  bg-light bg-gradient text-dark">
+    <form class="form" onsubmit="return saveMessageUser(this)">
+        <fieldset>
+            <h4 class="d-block mx-auto mb-2 text-center">Centro de Mensages</h4>
+            <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input class="form-control" type="email" name="user" id="user" placeholder="Your em@il address" required><br>
+            </div>
+            <hr>
+            <div id="container_messages"></div>
+            <div class="input-group mb-3">
+                <input class="form-control" type="text" name="text" id="text" placeholder="text the message" required>
+                <button class="btn btn-primary ms-3 text-nowrap" name="botonMensaje" id="botonMensaje">Submit <iclass="fa fa-paper-plane"></i></button>
+            </div>
+        </fieldset>
+    </form>
+</div>
